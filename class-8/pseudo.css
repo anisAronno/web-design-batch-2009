@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pseudo-el::first-letter{
+    font-size: 30px;
+    color: red;
+}
+
+.pseudo-el::first-line{
+    background-color: #ff0;
+    font-size: 25px;
+}
+
+.pseudo-el::selection{
+    color:#ff0;
+    background-color: #f00;
+}
+.pseudo-el::after{
+    content: "Hello";
+}
+
+.btn::before{
+    content: "Hi";
+    color: red;
+
+}
+
+.content p:nth-child(even){
+    color: blue;
+    background-color: red;
+}
+
+.content p:not(:nth-child(3)){
+    font-size: 40px;
+
+}
+
+.btn:hover{
+    color: red;
+    background-color: #ff0;
+}
