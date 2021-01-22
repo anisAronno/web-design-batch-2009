@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gallery Section CSS  */
+
+.gallery-section{
+margin: 20px 0px;
+}
+.gallery-section h2{
+    text-align: center;
+}
+.gallery-section .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery-section .gallery .gallery-item{
+    width: 400px;
+   border: 2px solid blue;
+   margin: 10px 20px;
+   padding: 20px;
+}
+
+.gallery-section .gallery .gallery-item img{
+    width: 100%;
+    height: auto;
+}
+
+.gallery-section .gallery .gallery-item h4{
+    text-align: center;
+}
