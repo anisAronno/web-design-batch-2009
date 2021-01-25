@@ -3,32 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* .bg{
+    background: url(./1.jpg) right no-repeat, url('./1.webp')  left no-repeat;
+} */
 
-/* Gallery Section CSS  */
 
-.gallery-section{
-margin: 20px 0px;
-}
-.gallery-section h2{
-    text-align: center;
-}
-.gallery-section .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.gallery-section .gallery .gallery-item{
-    width: 400px;
-   border: 2px solid blue;
-   margin: 10px 20px;
-   padding: 20px;
+.test{
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    animation-name: first-animation;
+    animation-duration: 6s;
+    animation-iteration-count: 5;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+    position: absolute;
 }
 
-.gallery-section .gallery .gallery-item img{
-    width: 100%;
-    height: auto;
+
+@keyframes first-animation{
+    0%{background-color:yellow; top:0px; left:0px; color:#fff}
+    25%{background-color: blue; left:500px; top:0px; color:red;}
+    50%{background-color: rgb(172, 21, 84); top:500px; left:500px; }
+    75%{background-color: green; left:0px; top:500px;}
+    100%{background-color: red; top:0px; left:0px}
 }
 
-.gallery-section .gallery .gallery-item h4{
-    text-align: center;
+
+
+.test-2{
+width: 284px;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+   
+}
+
+h1{
+    text-shadow: 2px 2px rgb(182, 174, 174);
+}
+
+
+.linear{
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    /* background-image: radial-gradient( red, yellow); */
 }
