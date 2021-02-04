@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mystyle{
+    color:purple;
+    padding: 10px;
+    margin: 20px;
+    display: none;
+}
+
+
+.Description{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+}
+
+
+.DescriptionHide{
+    display: none;
+}
